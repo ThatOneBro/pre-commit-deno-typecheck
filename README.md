@@ -35,7 +35,7 @@ I recommend including the [pre-commit-deno](https://github.com/nozaq/pre-commit-
     - id: deno-typecheck
     - args: [main.ts]
 - repo: https://github.com/nozaq/pre-commit-deno
-  rev: v0.1.0 # Latest as of 24 Jun 2022, use the ref you want
+  rev: 0.1.0 # Latest as of 24 Jun 2022, notice no v prefix... use the ref you want
   hooks:
     - id: deno-fmt
     - id: deno-lint
