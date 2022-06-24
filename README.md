@@ -12,7 +12,7 @@ Add this to your `.pre-commit-config.yaml`
 
 ```yaml
 - repo: https://github.com/ThatOneBro/pre-commit-deno-typecheck
-  rev: v0.1.0 # Use the ref you want to point at
+  rev: v0.2.0 # Latest as of 24 Jun 2022
   hooks:
     - id: deno-typecheck
       args: [main.ts] # Point this at your module entrypoint
