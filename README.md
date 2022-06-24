@@ -15,7 +15,7 @@ Add this to your `.pre-commit-config.yaml`
   rev: v0.1.0 # Use the ref you want to point at
   hooks:
     - id: deno-typecheck
-    - args: [main.ts] # Point this at your module entrypoint
+      args: [main.ts] # Point this at your module entrypoint
 ```
 
 ## Hooks available
@@ -33,7 +33,7 @@ I recommend including the [pre-commit-deno](https://github.com/nozaq/pre-commit-
   rev: v0.2.0 # Latest as of 24 Jun 2022
   hooks:
     - id: deno-typecheck
-    - args: [main.ts]
+      args: [main.ts]
 - repo: https://github.com/nozaq/pre-commit-deno
   rev: 0.1.0 # Latest as of 24 Jun 2022, notice no v prefix... use the ref you want
   hooks:
