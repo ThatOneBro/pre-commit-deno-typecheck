@@ -1,0 +1,7 @@
+- id: deno-typecheck
+  name: deno cache --check
+  description: Typechecks all TypeScript files.
+  entry: deno cache --check
+  types_or: [ts, tsx]
+  pass_filenames: true
+  language: system
